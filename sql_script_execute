@@ -1,0 +1,7 @@
+select 
+	sum(some_columns) as summed_cols
+from some_table
+where 
+	day>=20230413 
+	and day<=20230415
+group by 1

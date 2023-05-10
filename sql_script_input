@@ -1,0 +1,7 @@
+select 
+	sum(some_columns) as summed_cols
+from some_table
+where 
+	day>={min_date} 
+	and day<={max_date}
+group by 1
